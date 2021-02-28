@@ -70,6 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ### npm tools
+source - https://blog.cloudboost.io/creating-your-first-mern-stack-application-b6604d12e4d3
 axios will be used to send requests to server to fetch or insert data.
 body-parser parses the request bodies. We can get access to the information inside the request via req.body.
 babel-cli will be used to compile files from the command line.
