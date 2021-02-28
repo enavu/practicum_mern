@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### npm tools
+axios will be used to send requests to server to fetch or insert data.
+body-parser parses the request bodies. We can get access to the information inside the request via req.body.
+babel-cli will be used to compile files from the command line.
+express is a web application framework for NodeJS.
+mongoose is an ODM framework for MongoDB.
+nodemon automatically restarts the server whenever the code changes.
+react-bootstrap lets us use bootstrap components with React.
+react-modal lets us create a modal dialog in React.
+react-router-dom lets us use React router.
