@@ -1,6 +1,4 @@
-//webpack.config.js 
-//specify the entry point of our application which is index.js f
-//Webpack will bundle the JavaScript files together and generate a bundle.js file inside the client folder
+//webpack.config.js
 var path = require('path');
 var webpack = require('webpack');
 module.exports = {
@@ -10,12 +8,12 @@ module.exports = {
   filename: 'bundle.js'
  },
  module: {
-  loaders: [{
+  rules: [{
    test: /.jsx?$/,
    loader: 'babel-loader',
    exclude: /node_modules/,
    query: {
-    presets: ['es2015', 'react']
+    presets: ['@babel/preset-react']
    }
   },
   {
