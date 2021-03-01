@@ -1,6 +1,13 @@
 //webpack.config.js
 var path = require('path');
 var webpack = require('webpack');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+var HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
+  template: __dirname + './client/index.ejs',
+  filename: 'index.ejs',
+  inject: 'body'
+});
+
 module.exports = {
  entry: './client/index.js',
  output: {
